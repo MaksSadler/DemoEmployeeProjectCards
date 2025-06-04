@@ -5,7 +5,7 @@ spring:
   datasource:
     username: root
     password: admin
-    url: jdbc:mysql://localhost:3306/employee_cards
+    url: jdbc:mysql://localhost:3306/employee_cards # Вместо employee_cards можете указать свою базу данных.
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
